@@ -51,34 +51,34 @@ HTTPS – это расширение HTTP, которое защищает пе
 Class MainApp extends React.Component
 {
 <div>
-	<Header_Panel>
-    <Head_panel_info>    </Head_panel_info>
-    <Head_panel_User/>     </Head_panel_User>
-	</Header_Panel>
+	<Header_Panel>,
+    <Head_panel_info/>,
+    <Head_panel_User/>,
+	</Header_Panel>,
+<Main_Page>,
+  <Side_bar>,
+    <Home/>,
+    <News/>,
+    <Messages/>,
+    <Friends/>,
+    <Groups/>,
+    <Home/>,
+    <Photo/>,
+    <Music/>,
+  </Side_bar>,
 
-<Main_Page>
-  <Side_bar>
-    <Home>    </Home>
-    <News>    </News>
-    <Messages>    </Messages>
-    <Friends>    </Friends>
-    <Groups>    </Groups>
-    <Home>    </Home>
-    <Photo>    </Photo>
-    <Music>    </Music>
-  </Side_bar>
+  <Page_Body>,
+    <Page_Head/>,
+    <Page_Content/>,
+  </Page_Body>,
 
-  <Page_Body>
-    <Page_Head>    </Page_Head>
-    <Page_Content>    </Page_Content>
-  </Page_Body>
-
-  <Recommendations/>
-    <Advertisement>	    </Advertisement>
-  </Recommendations>
-</Main_Page>
-</div>
+  <Recommendations/>,
+    <Advertisement/>,
+  </Recommendations>,
+</Main_Page>,
+</div>,
 }
+
 
 Я прописал основные компоненты, немного углубившись в каждый из них.
 Подобная архитектура интуитивно понятна и информативна, поэтому применяется практически в каждой социальной сети.
