@@ -58,19 +58,19 @@ Class MainApp extends React.Component
 
 <Main_Page>
   <Side_bar>
-    <Home/>    </Home>
-    <News/>    </News>
-    <Messages/>    </Messages>
-    <Friends/>    </Friends>
-    <Groups/>    </Groups>
-    <Home/>    </Home>
-    <Photo/>    </Photo>
-    <Music/>    </Music>
+    <Home>    </Home>
+    <News>    </News>
+    <Messages>    </Messages>
+    <Friends>    </Friends>
+    <Groups>    </Groups>
+    <Home>    </Home>
+    <Photo>    </Photo>
+    <Music>    </Music>
   </Side_bar>
 
   <Page_Body>
-    <Page_Head/>    </Page_Head>
-    <Page_Content/>    </Page_Content>
+    <Page_Head>    </Page_Head>
+    <Page_Content>    </Page_Content>
   </Page_Body>
 
   <Recommendations/>
