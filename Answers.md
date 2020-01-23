@@ -52,29 +52,29 @@ Class MainApp extends React.Component
 {
 <div>
 	<Header_Panel>
-    <Head_panel_info/>
-    <Head_panel_User/>
+    <Head_panel_info>    </Head_panel_info>
+    <Head_panel_User/>     </Head_panel_User>
 	</Header_Panel>
 
 <Main_Page>
   <Side_bar>
-    <Home/>
-    <News/>
-    <Messages/>
-    <Friends/>
-    <Groups/>
-    <Home/>
-    <Photo/>
-    <Music/>
+    <Home/>    </Home>
+    <News/>    </News>
+    <Messages/>    </Messages>
+    <Friends/>    </Friends>
+    <Groups/>    </Groups>
+    <Home/>    </Home>
+    <Photo/>    </Photo>
+    <Music/>    </Music>
   </Side_bar>
 
   <Page_Body>
-    <Page_Head/>
-    <Page_Content/>
+    <Page_Head/>    </Page_Head>
+    <Page_Content/>    </Page_Content>
   </Page_Body>
 
   <Recommendations/>
-    <Advertisement>	
+    <Advertisement>	    </Advertisement>
   </Recommendations>
 </Main_Page>
 </div>
